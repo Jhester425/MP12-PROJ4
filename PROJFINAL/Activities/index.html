@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubre España</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div>
+        <h1>Descubre España <span class="tooltip">ℹ️
+            <span class="tooltip-text">Elige una Comunidad, Provincia y Población para ver fotos, ubicación y descripción.</span>
+        </span></h1>
+    </div>    
+
+    <!-- Wrapper for form and content -->
+    <div class="main-wrapper">
+        <!-- Left Container for Location -->
+        <div class="left-container">
+            <div class="location">
+                <h2>Ubicación</h2>
+                <p id="location">Selecciona una población para ver su ubicacion...</p>
+            </div>
+        </div>
+
+        <!-- Middle Container for Form -->
+        <div class="middle-container">
+            <form action="">
+                <label>Comunitat: </label>
+                <select name="ccaa" id="ccaa">
+                    <option value="" disabled selected>Selecciona una opción</option>
+                </select>
+                <br><br>
+                
+                <label>Província: </label>
+                <select name="provincia" id="provincia">
+                    <option value="" disabled selected>Selecciona una opción</option>
+                </select>
+                <br><br>
+                
+                <label>Població: </label>
+                <select name="poblacion" id="poblacion">
+                    <option value="" disabled selected>Selecciona una opción</option>
+                </select>
+                <br><br>
+                
+                <input type="submit" value="ENVIAR" id="submit">
+            </form>
+        </div>
+
+        <!-- Right Container for Description -->
+        <div class="right-container">
+            <div class="description">
+                <h2>Descripción del lugar</h2>
+                <p id="description-text">Selecciona una población para ver la descripción...</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Below the main content, Images will appear here -->
+    <div class="image-container">
+        <h2>Imágenes</h2>
+        <div id="image-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

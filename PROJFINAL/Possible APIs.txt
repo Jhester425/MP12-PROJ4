@@ -1,0 +1,55 @@
+Possible APIs
+
+1. TripAdvisor API
+
+What it offers: You can search for things to do, activities, attractions, restaurants, and events in specific cities or regions.
+
+How to use: You can use their API to search by location (e.g., Barcelona) and filter by activity types (e.g., hiking, swimming).
+
+Documentation: You will need to apply for access to their API through the TripAdvisor Developer Portal.
+
+2. Eventbrite API
+
+What it offers: Eventbrite provides information on local events such as concerts, classes, outdoor activities, festivals, and other happenings in different locations.
+
+How to use: You can search by location (for example, Barcelona) and filter for outdoor activities, concerts, or other types of events.
+
+Documentation: You can find the Eventbrite API documentation here.
+
+3. GetYourGuide API
+
+What it offers: GetYourGuide offers tours, activities, and experiences in cities around the world, including hiking tours, museum visits, and adventure activities.
+
+How to use: You can search by city and filter for activities like hiking, swimming, and cultural experiences.
+
+Documentation: Their API documentation is available after registering on their developer portal.
+
+4. Foursquare API
+
+What it offers: Foursquare provides location-based data and can give you recommendations for activities, places to visit, and things to do based on user ratings.
+
+How to use: You can search by specific locations (e.g., Barcelona) and find things to do based on categories like outdoor activities, restaurants, museums, etc.
+
+Documentation: Foursquare's API documentation is available here.
+
+5. Tourism APIs (e.g., Open Trip Planner, Viator)
+
+What it offers: These APIs provide information on local attractions, tours, and events that can be filtered by location. For example, Viator offers both guided tours and activities in many cities around the world.
+
+Documentation: Visit the respective websites for more details on their APIs and integration.
+
+6. Google Places API
+
+What it offers: Google Places provides detailed information about geographic locations, including popular tourist attractions, parks, and activity locations.
+
+How to use: You can search for places (e.g., parks, hiking spots, beaches) within a specific radius of your location.
+
+Documentation: You can check out the Google Places API documentation here.
+
+7. Outdooractive API
+
+What it offers: Focused on outdoor activities, Outdooractive can help you find trails, hikes, biking routes, and other outdoor experiences in specific areas.
+
+How to use: This API allows you to search for various outdoor activities by location.
+
+Documentation: Their developer documentation can be accessed after registration on their website.

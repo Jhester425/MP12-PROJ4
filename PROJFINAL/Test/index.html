@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Descubre España</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div>
+    <h1>Discover Spain
+      <span class="tooltip">ℹ️
+        <span class="tooltip-text">Elige una Comunidad, Provincia y Población para ver información y actividades cercanas.</span>
+      </span>
+    </h1>
+  </div>
+
+  <div class="main-wrapper">
+    <!-- Left -->
+    <div class="left-container">
+      <div class="location">
+        <h2>Location</h2>
+        <p id="location">Select a town/city to see its location...</p>
+      </div>
+    </div>
+
+    <!-- Middle -->
+    <div class="middle-container">
+      <form>
+        <label>Autonomous Community: </label>
+        <select id="ccaa">
+          <option value="" disabled selected>Select an option</option>
+        </select><br><br>
+
+        <label>Province: </label>
+        <select id="provincia">
+          <option value="" disabled selected>Select an option</option>
+        </select><br><br>
+
+        <label>Town/City: </label>
+        <select id="poblacion">
+          <option value="" disabled selected>Select an option</option>
+        </select><br><br>
+
+        <input type="submit" value="SEARCH" id="submit" />
+      </form>
+    </div>
+
+    <!-- Right -->
+    <div class="right-container">
+      <div class="description">
+        <h2>Description of the place</h2>
+        <p id="description-text">Select a town/city to see its description...</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="activity-container">
+    <h3>Nearby Activities</h3>
+    <!-- Activities will appear here -->
+    <p id="activities-text">Select a town/city to see nearby activities...</p>
+  </div>
+
+  <div id="places-container">
+    <div id="places-container2">
+      <h3>Places of Interest</h3>
+    
+    <p id="places-text">Select a town/city to see places of interest...</p>
+    <!-- <div id="places-grid"></div> Grid goes here -->
+    </div>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
