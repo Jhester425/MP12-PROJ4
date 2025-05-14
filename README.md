@@ -110,4 +110,12 @@ An interactive web application to discover, explore, and share points of interes
 
 ```plantuml
 @startuml
+actor User
+User --> UI: Interacts with tabs
 
+UI --> App: DOM Events
+App --> Wikipedia API: Fetch description
+App --> Geoapify API: Fetch nearby places
+App --> MySQL: Insert/Query places
+
+@enduml
