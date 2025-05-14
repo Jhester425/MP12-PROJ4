@@ -23,7 +23,7 @@ An interactive web application to discover, explore, and share points of interes
 - **Backend**: Node.js with Express.
 - **Database**: MySQL.
 - **External APIs**:
-  - Wikipedia REST API.
+  - Wikipedia REST API. ´https://en.wikipedia.org/api/rest_v1/´
   - Geoapify Places API. ´https://www.geoapify.com/´
   - OpenStreetMap (Nominatim).
 - **Other Resources**: Geographical data for CCAA/Provinces/Cities (from GitHub raw JSON).
