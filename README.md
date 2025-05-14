@@ -25,7 +25,7 @@ An interactive web application to discover, explore, and share points of interes
 - **External APIs**:
   - Wikipedia REST API. ´https://en.wikipedia.org/api/rest_v1/´
   - Geoapify Places API. ´https://www.geoapify.com/´
-  - OpenStreetMap (Nominatim).
+  - OpenStreetMap (Nominatim). https://nominatim.openstreetmap.org/ui/search.html´
 - **Other Resources**: Geographical data for CCAA/Provinces/Cities (from GitHub raw JSON).
 
 ---
