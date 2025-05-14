@@ -24,7 +24,7 @@ An interactive web application to discover, explore, and share points of interes
 - **Database**: MySQL.
 - **External APIs**:
   - Wikipedia REST API.
-  - Geoapify Places API.
+  - Geoapify Places API. ´https://www.geoapify.com/´
   - OpenStreetMap (Nominatim).
 - **Other Resources**: Geographical data for CCAA/Provinces/Cities (from GitHub raw JSON).
 
