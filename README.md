@@ -30,22 +30,6 @@ An interactive web application to discover, explore, and share points of interes
 
 ---
 
-## 📊 UML and ER Diagrams
-
-### 📐 UML Diagram (Simplified)
-
-```plantuml
-@startuml
-actor User
-User --> UI: Interacts with tabs
-
-UI --> App: DOM Events
-App --> Wikipedia API: Fetch description
-App --> Geoapify API: Fetch nearby places
-App --> MySQL: Insert/Query places
-
-@enduml
-
 ## 🔧 Detalles de Código
 
 ### **Frontend (HTML, CSS, Vanilla JavaScript)**
@@ -118,4 +102,12 @@ App --> MySQL: Insert/Query places
      longitude: -74.0060,
      address: 'Full address',
    }
+---
+
+## 📊 UML and ER Diagrams
+
+### 📐 UML Diagram (Simplified)
+
+```plantuml
+@startuml
 
